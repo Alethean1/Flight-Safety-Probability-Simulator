@@ -5,10 +5,10 @@ prompt = input ("Take a flight? or Automate flights?")
 
 
 def Probability():
-        auto_flights= random.randint(1,1000000)
+        auto_flights= random.randint(1,10000000)
         print(auto_flights)
         
-        if auto_flights == 500000:
+        if auto_flights == 5000000:
                 print("Crash")
         else:
                 print("Safe Flight")
